@@ -1,0 +1,19 @@
+
+a = 0
+b = 1
+x = 1
+while x <= 5:
+    print (b)
+    c = a + b
+    a = b
+    b = c
+    x = x + 1
+print("THE FACT OF n IS ")
+n = int(input("enter the number n : "))
+fact = 1
+while n > 1:
+    last = n %  10
+    fact = fact * last
+    
+    n = n - 1
+print (fact)
